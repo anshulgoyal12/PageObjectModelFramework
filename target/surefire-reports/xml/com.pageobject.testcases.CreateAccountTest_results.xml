@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Account Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="26.777">
+  <properties />
+  
+  
+            <testcase name="createAccountTest" time="26.777" classname="com.pageobject.testcases.CreateAccountTest" />
+      
+</testsuite>

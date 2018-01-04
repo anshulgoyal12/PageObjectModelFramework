@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Test successfully started]]>
+    </line>
+    <line>
+      <![CDATA[Login Test succesfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Login Test successfully started]]>
+    </line>
+    <line>
+      <![CDATA[Login Test succesfully executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="30051" started-at="2018-01-04T06:47:49Z" finished-at="2018-01-04T06:48:19Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="3214" started-at="2018-01-04T06:47:49Z" finished-at="2018-01-04T06:47:52Z">
+      <class name="com.pageobject.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.LoginTest@43b914]" name="loginTest" duration-ms="2855" started-at="2018-01-04T12:17:49Z" data-provider="dp" finished-at="2018-01-04T12:17:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anshulgoyal190@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anshul@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Test successfully started]]>
+            </line>
+            <line>
+              <![CDATA[Login Test succesfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.pageobject.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Create Account Test" duration-ms="26822" started-at="2018-01-04T06:47:52Z" finished-at="2018-01-04T06:48:19Z">
+      <class name="com.pageobject.testcases.CreateAccountTest">
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.CreateAccountTest@92fab5]" name="createAccountTest" duration-ms="26777" started-at="2018-01-04T12:17:52Z" data-provider="dp" finished-at="2018-01-04T12:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anshul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Test successfully started]]>
+            </line>
+            <line>
+              <![CDATA[Login Test succesfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.pageobject.testcases.CreateAccountTest -->
+    </test> <!-- Create Account Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>
