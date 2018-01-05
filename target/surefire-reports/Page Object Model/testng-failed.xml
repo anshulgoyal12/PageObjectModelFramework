@@ -10,7 +10,7 @@
     <classes>
       <class name="com.pageobject.testcases.CreateAccountTest">
         <methods>
-          <include name="createAccountTest"/>
+          <include name="createAccountTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.pageobject.testcases.CreateAccountTest -->
     </classes>

@@ -18,13 +18,14 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterSuite;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
 import com.pageobject.utilities.ExtentManager;
 import com.pageobject.utilities.Utilities;
 import com.pageobject.utilities.Xls_Reader;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class Page {
 
@@ -241,6 +242,12 @@ public class Page {
 		select.selectByVisibleText(value);
 		
 		test.log(LogStatus.INFO, "Selecting from dropdown: "+locator+"value as"+value);
+	}
+	
+	@AfterSuite
+	public void tearDown(){
+		
+		driver.quit();
 	}
 
 }
