@@ -243,11 +243,5 @@ public class Page {
 		
 		test.log(LogStatus.INFO, "Selecting from dropdown: "+locator+"value as"+value);
 	}
-	
-	@AfterSuite
-	public void tearDown(){
-		
-		driver.quit();
-	}
 
 }

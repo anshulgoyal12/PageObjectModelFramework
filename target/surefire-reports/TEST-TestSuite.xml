@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="14.753" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="32.66" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
@@ -62,40 +62,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="loginTest" classname="com.pageobject.testcases.LoginTest" time="4.63"/>
-  <testcase name="createAccountTest" classname="com.pageobject.testcases.CreateAccountTest" time="10.123">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[2]/div/div[1]/div[3]/div/a/div&quot;}&#10;Command duration or timeout: 10.10 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ind496&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.0&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 685b0f17-1343-4803-9552-84d061fe234d&#10;*** Element info: {Using=xpath, value=html/body/div[2]/div/div[1]/div[3]/div/a/div}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[2]/div/div[1]/div[3]/div/a/div"}
-Command duration or timeout: 10.10 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ind496', ip: '192.168.56.1', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.0', java.version: '1.8.0_102'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 685b0f17-1343-4803-9552-84d061fe234d
-*** Element info: {Using=xpath, value=html/body/div[2]/div/div[1]/div[3]/div/a/div}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.pageobject.base.Page.click(Page.java:188)
-	at com.pageobject.pages.ZohoAppPage.goToCRM(ZohoAppPage.java:12)
-	at com.pageobject.testcases.CreateAccountTest.createAccountTest(CreateAccountTest.java:26)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[2]/div/div[1]/div[3]/div/a/div"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ind496', ip: '192.168.56.1', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.0', java.version: '1.8.0_102'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/indianic/AppData/Local/Temp/anonymous6736695880967324404webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/indianic/AppData/Local/Temp/anonymous6736695880967324404webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-]]></failure>
-    <system-out><![CDATA[true
-]]></system-out>
-  </testcase>
+  <testcase name="loginTest" classname="com.pageobject.testcases.LoginTest" time="3.701"/>
+  <testcase name="createAccountTest" classname="com.pageobject.testcases.CreateAccountTest" time="28.959"/>
 </testsuite>
