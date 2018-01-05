@@ -14,12 +14,12 @@
       <![CDATA[Login Test succesfully executed]]>
     </line>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="30051" started-at="2018-01-04T06:47:49Z" finished-at="2018-01-04T06:48:19Z">
+  <suite name="Page Object Model" duration-ms="31413" started-at="2018-01-05T05:29:07Z" finished-at="2018-01-05T05:29:38Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="3214" started-at="2018-01-04T06:47:49Z" finished-at="2018-01-04T06:47:52Z">
+    <test name="Login Test" duration-ms="4095" started-at="2018-01-05T05:29:07Z" finished-at="2018-01-05T05:29:11Z">
       <class name="com.pageobject.testcases.LoginTest">
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.LoginTest@43b914]" name="loginTest" duration-ms="2855" started-at="2018-01-04T12:17:49Z" data-provider="dp" finished-at="2018-01-04T12:17:52Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.LoginTest@43b914]" name="loginTest" duration-ms="3723" started-at="2018-01-05T10:59:07Z" data-provider="dp" finished-at="2018-01-05T10:59:10Z">
           <params>
             <param index="0">
               <value>
@@ -48,9 +48,9 @@
         </test-method> <!-- loginTest -->
       </class> <!-- com.pageobject.testcases.LoginTest -->
     </test> <!-- Login Test -->
-    <test name="Create Account Test" duration-ms="26822" started-at="2018-01-04T06:47:52Z" finished-at="2018-01-04T06:48:19Z">
+    <test name="Create Account Test" duration-ms="27304" started-at="2018-01-05T05:29:11Z" finished-at="2018-01-05T05:29:38Z">
       <class name="com.pageobject.testcases.CreateAccountTest">
-        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.CreateAccountTest@92fab5]" name="createAccountTest" duration-ms="26777" started-at="2018-01-04T12:17:52Z" data-provider="dp" finished-at="2018-01-04T12:18:19Z">
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.CreateAccountTest@92fab5]" name="createAccountTest" duration-ms="27253" started-at="2018-01-05T10:59:11Z" data-provider="dp" finished-at="2018-01-05T10:59:38Z">
           <params>
             <param index="0">
               <value>

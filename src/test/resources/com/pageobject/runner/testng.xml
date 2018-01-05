@@ -14,10 +14,10 @@
 		</classes>
 	</test>
 	
-	<test name="Create Account Test">
+	<!-- <test name="Create Account Test">
 		<classes>
 			<class name="com.pageobject.testcases.CreateAccountTest" />
 		</classes>
-	</test>
+	</test> -->
 	
 </suite> <!-- Suite -->
