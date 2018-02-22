@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.379 sec - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 62.559 sec <<< FAILURE! - in TestSuite
+createAccountTest(com.pageobject.testcases.CreateAccountTest)  Time elapsed: 35.32 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (269, 24.25). Other element would receive the click: <div id="freezeBackGround" onclick="javascript:sE(event);" style="display: block; z-index: 30; position: fixed; top: 0px; left: 0px; height: 667px; width: 1349px;"></div>
+Command duration or timeout: 87 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ind496', ip: '10.2.6.54', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.pageobject.base.Page.click(Page.java:185)
+	at com.pageobject.base.TopMenu.goToAccounts(TopMenu.java:35)
+	at com.pageobject.testcases.CreateAccountTest.createAccountTest(CreateAccountTest.java:27)
+

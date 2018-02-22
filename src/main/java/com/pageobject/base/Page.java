@@ -59,7 +59,7 @@ public class Page {
 			try{
 				
 				Config.load(fis);
-				logs.debug("Loading the Config Properties");
+				//logs.debug("Loading the Config Properties");
 				
 			}catch (IOException e) {
 				
