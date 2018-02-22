@@ -4,25 +4,25 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="35.301">
+           time="28.852">
   <properties />
-            <testcase name="createAccountTest" time="35.301" classname="com.pageobject.testcases.CreateAccountTest">
+            <testcase name="createAccountTest" time="28.852" classname="com.pageobject.testcases.CreateAccountTest">
                 <failure type="org.openqa.selenium.WebDriverException"
                   message="Element is not clickable at point (269, 24.25). Other element would receive the click: &lt;div id=&quot;freezeBackGround&quot; onclick=&quot;javascript:sE(event);&quot; style=&quot;display: block; z-index: 30; position: fixed; top: 0px; left: 0px; height: 667px; width: 1349px;&quot;&gt;&lt;/div&gt;
-Command duration or timeout: 87 milliseconds
+Command duration or timeout: 85 milliseconds
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ind496&apos;, ip: &apos;10.2.6.54&apos;, os.name: &apos;Windows Vista&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.0&apos;, java.version: &apos;1.8.0_102&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf"
+Session ID: 89b572fa-3d58-41a5-83a9-a70c016e0580"
               >
 <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (269, 24.25). Other element would receive the click: <div id="freezeBackGround" onclick="javascript:sE(event);" style="display: block; z-index: 30; position: fixed; top: 0px; left: 0px; height: 667px; width: 1349px;"></div>
-Command duration or timeout: 87 milliseconds
+Command duration or timeout: 85 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'ind496', ip: '10.2.6.54', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.0', java.version: '1.8.0_102'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf
+Session ID: 89b572fa-3d58-41a5-83a9-a70c016e0580
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -32,7 +32,7 @@ Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
   org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
   org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-  com.pageobject.base.Page.click(Page.java:185)
+  com.pageobject.base.Page.click(Page.java:184)
   com.pageobject.base.TopMenu.goToAccounts(TopMenu.java:35)
   com.pageobject.testcases.CreateAccountTest.createAccountTest(CreateAccountTest.java:27)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

@@ -14,7 +14,7 @@
       <![CDATA[Click to see screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Thu_Feb_22_16_44_21_IST_2018.jpg>Screenshots</a>]]>
+      <![CDATA[<a target="_blank" href=Thu_Feb_22_16_52_41_IST_2018.jpg>Screenshots</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -23,15 +23,15 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Thu_Feb_22_16_44_21_IST_2018.jpg><img src=Thu_Feb_22_16_44_21_IST_2018.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Thu_Feb_22_16_52_41_IST_2018.jpg><img src=Thu_Feb_22_16_52_41_IST_2018.jpg height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="40383" started-at="2018-02-22T11:13:41Z" finished-at="2018-02-22T11:14:21Z">
+  <suite name="Page Object Model" duration-ms="34672" started-at="2018-02-22T11:22:06Z" finished-at="2018-02-22T11:22:41Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="4766" started-at="2018-02-22T11:13:41Z" finished-at="2018-02-22T11:13:45Z">
+    <test name="Login Test" duration-ms="5538" started-at="2018-02-22T11:22:06Z" finished-at="2018-02-22T11:22:12Z">
       <class name="com.pageobject.testcases.LoginTest">
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.LoginTest@43b914]" name="loginTest" duration-ms="4374" started-at="2018-02-22T16:43:41Z" data-provider="dp" finished-at="2018-02-22T16:43:45Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.LoginTest@43b914]" name="loginTest" duration-ms="5182" started-at="2018-02-22T16:52:06Z" data-provider="dp" finished-at="2018-02-22T16:52:11Z">
           <params>
             <param index="0">
               <value>
@@ -60,9 +60,9 @@
         </test-method> <!-- loginTest -->
       </class> <!-- com.pageobject.testcases.LoginTest -->
     </test> <!-- Login Test -->
-    <test name="Create Account Test" duration-ms="35588" started-at="2018-02-22T11:13:45Z" finished-at="2018-02-22T11:14:21Z">
+    <test name="Create Account Test" duration-ms="29118" started-at="2018-02-22T11:22:12Z" finished-at="2018-02-22T11:22:41Z">
       <class name="com.pageobject.testcases.CreateAccountTest">
-        <test-method status="FAIL" signature="createAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.CreateAccountTest@92fab5]" name="createAccountTest" duration-ms="35301" started-at="2018-02-22T16:43:45Z" data-provider="dp" finished-at="2018-02-22T16:44:21Z">
+        <test-method status="FAIL" signature="createAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.pageobject.testcases.CreateAccountTest@92fab5]" name="createAccountTest" duration-ms="28852" started-at="2018-02-22T16:52:12Z" data-provider="dp" finished-at="2018-02-22T16:52:40Z">
           <params>
             <param index="0">
               <value>
@@ -78,21 +78,21 @@
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Element is not clickable at point (269, 24.25). Other element would receive the click: <div id="freezeBackGround" onclick="javascript:sE(event);" style="display: block; z-index: 30; position: fixed; top: 0px; left: 0px; height: 667px; width: 1349px;"></div>
-Command duration or timeout: 87 milliseconds
+Command duration or timeout: 85 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'ind496', ip: '10.2.6.54', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.0', java.version: '1.8.0_102'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf]]>
+Session ID: 89b572fa-3d58-41a5-83a9-a70c016e0580]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (269, 24.25). Other element would receive the click: <div id="freezeBackGround" onclick="javascript:sE(event);" style="display: block; z-index: 30; position: fixed; top: 0px; left: 0px; height: 667px; width: 1349px;"></div>
-Command duration or timeout: 87 milliseconds
+Command duration or timeout: 85 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'ind496', ip: '10.2.6.54', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.0', java.version: '1.8.0_102'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf
+Session ID: 89b572fa-3d58-41a5-83a9-a70c016e0580
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,7 +102,7 @@ Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at com.pageobject.base.Page.click(Page.java:185)
+	at com.pageobject.base.Page.click(Page.java:184)
 	at com.pageobject.base.TopMenu.goToAccounts(TopMenu.java:35)
 	at com.pageobject.testcases.CreateAccountTest.createAccountTest(CreateAccountTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -144,7 +144,7 @@ Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf
               <![CDATA[Click to see screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Thu_Feb_22_16_44_21_IST_2018.jpg>Screenshots</a>]]>
+              <![CDATA[<a target="_blank" href=Thu_Feb_22_16_52_41_IST_2018.jpg>Screenshots</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -153,7 +153,7 @@ Session ID: def23af1-3a0b-47e9-af05-e77051b3d4bf
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Thu_Feb_22_16_44_21_IST_2018.jpg><img src=Thu_Feb_22_16_44_21_IST_2018.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Thu_Feb_22_16_52_41_IST_2018.jpg><img src=Thu_Feb_22_16_52_41_IST_2018.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
